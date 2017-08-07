@@ -46,6 +46,7 @@ module.exports = (karmaConfig) => {
     singleRun: true,
     preprocessors: {
       // do not include 'coverage' preprocessor for karma-coverage
+      // TODO
       // code is already instrumented by babel-plugin-__coverage__
       './test/tests.bundle.js': ['webpack'],
     },
